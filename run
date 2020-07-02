@@ -1,0 +1,7 @@
+read -p "Voulez-vous modifier les parametre d'execution ? [y/n] : " modify
+if [ "$modify" = "y" ]; then
+    Compilation/main.out 1
+else
+    echo Lancement de programme...
+    Compilation/main.out
+fi

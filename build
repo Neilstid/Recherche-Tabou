@@ -1,0 +1,4 @@
+#!/bin/bash
+g++ -o Compilation/main.out Source/main.cpp -lpthread
+echo "Compilation réaliser avec succès"
+ 
